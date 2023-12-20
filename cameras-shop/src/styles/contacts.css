@@ -1,0 +1,92 @@
+
+.contacts > div {
+    width: 600px;
+    position: relative;
+    margin: 10% auto;
+    padding: 50px 30px;
+    background: white;
+}
+.close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+
+/* contacts.css */
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    overflow: auto;
+}
+
+.contacts > div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contacts-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 98%;
+    padding: 8px;
+    border: 3px solid #ccc;
+    border-radius: 30px;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: -moz-mac-accentdarkestshadow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Add additional styles as needed */
